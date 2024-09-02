@@ -11,16 +11,27 @@ The objective of this project is to classify whether a Falcon 9 rocket will succ
 Project Structure
 
 Falcon9_Landing_Prediction/
+
 ├── data/
+
 │   ├── raw/
+
 │   │   └── falcon9_launch_data.csv
+
 ├── notebooks/
+
 │   ├── 01_data_preprocessing.ipynb
+
 │   ├── 02_exploratory_data_analysis.ipynb
+
 │   ├── 03_model_training.ipynb
+
 ├── src/
+
 │   ├── data_preprocessing.py
+
 │   ├── model_training.py
+
 ├── README.md
 
 Model Evaluation: Evaluate the performance of the models using the provided evaluation scripts or notebooks.
